@@ -1,0 +1,38 @@
+/*selector{
+    property: value;
+}*/
+
+*{
+    color : green;
+}
+
+li {
+    color : blue;
+}
+
+#special{
+    color:pink;
+}
+li#special{ /*li에 해당하는 special만*/
+    color:pink;
+}
+
+
+.red{
+    width : 100px;
+    height : 100px;
+    background:yellow;
+}
+
+button:hover{ /*마우스를 올렸을때*/
+    color: red;
+    background:beige;
+}
+
+a[href="naver"]{ /*naver로 시작하는 링크*/
+    color:purple;
+}
+
+a[href$=".com"]{ /*.com으로 끝나는 링크만*/
+    color:purple;
+}

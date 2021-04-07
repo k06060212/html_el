@@ -1,0 +1,31 @@
+.container {
+    padding-top: 100px;
+    background: beige;
+    height: 100vh;
+    display: flex;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.item1 {
+    background: blue;
+    /*order: 1;*/
+    flex-grow:1; /*자리를 꽉 채움 기본값 0 나머지 아이템 2,3 에도 지정해주고 비율도 나눌 수 있다.*/
+    flex-shrink:2;/*줄일때 어떻게 줄어드는지*/
+    flex-basis: 60%;/*일정 비율*/
+    align-self:center;/*배치 조정을 할 수 있음*/
+}
+
+.item2 {
+    background: green;
+    /*order: 3;*/
+}
+
+.item3 {
+    background: yellow;
+    /*order: 2;*/
+}

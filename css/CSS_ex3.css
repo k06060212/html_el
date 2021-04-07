@@ -1,0 +1,82 @@
+.container{
+    background: beige;
+    height: 100vh;
+    display: flex;
+    
+  /* 중심축 결정 */
+    flex-direction: row;
+    /*flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;*/
+  
+  /* 한줄에 가득 차면 다음 줄로 넘어갈지 말지 nowrap 기본 */  
+    /*flex-wrap: nowrap;*/
+    flex-wrap: wrap;
+    /*flex-wrap: wrap-reverse;*/
+    /*flex-flow: colum nowrap;*/
+  
+   /* 중심축에서 아이템을 어떻게 배치할지 justify-content
+        flex-start 처음부터 왼쪽에서 오른쪽 위에서 아래
+        flex-end 순서는 유지하되 오른쪽으로 또는 밑에서 아래쪽
+        center
+        space-around 박스를 둘러싸게 스페이스
+        space-evenly 같은 간격
+        space-beetween
+        */
+    justify-content: flex-start;
+    justify-content: flex-end;
+  
+   /* 반대축에서 아이템을 배치하는 것
+      center
+      baseline 텍스트가 균등하게 보여짐 */
+    align-items: center;
+  
+  /* 반대축의 아이템을 지정*/
+    align-content: center;
+}
+
+.item{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.item1{
+    background: #ef9a9a;
+}
+
+.item2{
+    background: #f48fb1;
+}
+
+.item3{
+    background: #ce93d8;
+}
+
+.item4{
+    background: #b39ddb;
+}
+
+.item5{
+    background: #90caf9;
+}
+
+.item6{
+    background: #a5d6a7;
+}
+
+.item7{
+    background: #e6ee9c;
+}
+
+.item8{
+    background: #fcec18;
+}
+
+.item9{
+    background: #e99b0b;
+}
+
+.item10{
+    background: #e97558;
+}
